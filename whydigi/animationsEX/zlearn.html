@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,900&family=Gabarito&family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+    <!-- locomotive scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+
+    <!-- locomotive-scroll JavaScript Bundle
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
+
+    <link rel="stylesheet" href="locomotive-scroll.css" />
+
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="zstylesheet.css" />
+    <!-- tab title -->
+    <title>What Will You Learn In Digital Technology</title>
+    <style>
+        .element {
+            opacity: 0;
+            clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+            transform: translateY(80%);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            /* z-index: 9999; */
+        }
+
+        .visible {
+            opacity: 1;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            transform: translateY(0%);
+            /* z-index: 9999; */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div data-scroll-container>
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg py-3 px-2 sticky-tp fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="zindex.html">
+                    <img src="images/krc-brand.png" alt="krc branding logo" width="100" height="30" />
+                </a>
+                <!-- off canvas nav -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="zindex.html">
+                            <img src="images/krc-brand.png" alt="krc branding logo" width="100" height="30" />
+                        </a>
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center mt-2 mt-lg-0 gap-1">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="zindex.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="zlearn.html">Learn</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="zfuture.html">Your Future</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="zshowcase.html">Showcase</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <section data-scroll-section>
+            <div class="banner-learn c4 pt-5">
+                <div class="learn-heading text-uppercase lineLet">
+                    <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="0.2" class="wipeUp">What</h1>
+                    <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="0.1" class="ps1 wipeUp">Will You</h1>
+                    <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="0.3" class="ps2 wipeUp element" data-scroll-position="top" data-scroll-class="visible">Learn?</h1>
+                </div>
+                <div class="img-over">
+                    <img src="images/circle-learn.png" alt="some people coding" data-scroll data-scroll-speed="-.05" />
+                </div>
+            </div>
+        </section>
+
+        <!-- content/column alternating sections >
+        <section>
+            <div class="container-fluid c4 pt-0 pt-md-5">
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <div class="big-heading text-center w-75 mt-5">
+
+                        <h2>Learn a variety of skills</h2>
+                        <p>The skills you learn Digital Technology are transferrable to any and every profession industry.</p>
+                    </div>
+                </div>
+
+                <div class="row semi-w py-5">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="col-text p-5">
+                            <h3>Design and Develop Digital Outcomes</h3>
+                            <p>
+                                By allowing you to focus on contexts and areas that <i>you</i> are passionate about, learning to design, create, refine and develop digital outcomes that are epxressions of who you are make learning much more fun. Understanding how our creations affect the people and world around is a major part of developing outcomes that have real impact.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-4">
+                        <img src="images/dddo.svg" alt="girl desiging a website" class="col-img img-fluid" />
+
+                    </div>
+                </div>
+
+                <div class="row c5">
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-4 order-1 order-md-0">
+                        <img src="images/ct.svg" alt="girl programming things" class="col-img im-fluid" />
+
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="col-text p-5">
+                            <h3>Computational Thinking</h3>
+                            <p>Breaking down and understanding each individual working part is key to working efficiently and learning how to manipulate a system to best suit your needs. Problem-olving is one of the most important skills for any job, and learning how to best use the tools that you have at your disposal is essential for success in every career.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row c5 pb-5">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="col-text p-5">
+                            <h3>Project Management</h3>
+                            <p>Planning may not seem like to most interesting skill, but being an efficient planner, adjusting a project as needed and decomposing a big project into smaller parts is one of the most useful skills employers are looking for. Setting and meeting deadlines is just as important as actually doing something, and the proceses we have in Digital Technology help you build your management capabilites.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-4">
+                        <img src="images/pm.svg" alt="girl organinsing her project" class="col-img img-fluid" />
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section-->
+
+
+
+        <!-- content/column alternating sections -->
+        <section data-scroll-section>
+            <div class="container-fluid c4">
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <div class="big-heading text-center w-75 mt-5 lineRight">
+
+                        <h2>Learn a variety of skills</h2>
+                        <p>The skills you learn Digital Technology are transferrable to any and every profession industry.</p>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-evenly flex-wrap semi-w">
+                    <div class="col-text p-5 lineLeft" data-scroll data-scroll-speed="0.05" >
+                        <h3>Design and Develop Digital Outcomes</h3>
+                        <p>
+                            By allowing you to focus on contexts and areas that <i>you</i> are passionate about, learning to design, create, refine and develop digital outcomes that are epxressions of who you are make learning much more fun. Understanding how our creations affect the people and world around is a major part of developing outcomes that have real impact.
+                        </p>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <img src="images/dddo.svg" alt="girl desiging a website" class="col-img img-fluid lineUp" data-scroll data-scroll-speed="0.6" />
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="d-flex justify-content-evenly flex-wrap-reverse c5">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/ct.svg" alt="girl programming things" class="col-img img-fluid lineUp" data-scroll data-scroll-speed="0.6" />
+
+                    </div>
+                    <div class="col-text p-5 lineRight" data-scroll data-scroll-speed="0.05" >
+                        <h3>Computational Thinking</h3>
+                        <p>Breaking down and understanding each individual working part is key to working efficiently and learning how to manipulate a system to best suit your needs. Problem-olving is one of the most important skills for any job, and learning how to best use the tools that you have at your disposal is essential for success in every career.</p>
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-evenly flex-wrap c5 pb-5">
+                    <div class="col-text p-5 lineLeft" data-scroll data-scroll-speed="0.05" >
+                        <h3>Project Management</h3>
+                        <p>Planning may not seem like to most interesting skill, but being an efficient planner, adjusting a project as needed and decomposing a big project into smaller parts is one of the most useful skills employers are looking for. Setting and meeting deadlines is just as important as actually doing something, and the proceses we have in Digital Technology help you build your management capabilites.</p>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <img src="images/pm.svg" alt="girl organinsing her project" class="col-img img-fluid lineUp" data-scroll data-scroll-speed="0.6" />
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section data-scroll-section>
+            <div class="container-fluid c1 pb-5">
+                <div class="d-flex justify-content-center align-items-center py-5 lineUp">
+                    <div class="big-heading text-center w-75 mw-100">
+                        <h2>What are some other essential skills you will learn?</h2>
+
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center px-3 lineUp">
+                    <div class="soft">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Teamwork &amp; Collaboration</p>
+
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Decision Making</p>
+
+                        </div>
+
+                        <div class="d-flex align-items-center ">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Attention to Detail</p>
+
+                        </div>
+                    </div>
+                    <div class="soft">
+
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Communication Skills</p>
+
+                        </div>
+
+                        <div class="d-flex align-items-center ">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Resourcefulness</p>
+
+                        </div>
+                        <div class="d-flex align-items-center ">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Critical Thinking</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer data-scroll-section>
+            <div class="c3 footer d-flex justify-content-center align-items-center text-center p-4">
+                <div>
+                    <h2>Digital Technology @ OGHS</h2>
+                    <p>Website designed, developed and created by Mr. Cassidy</p>
+                    <p>
+                        Illustrations from <a href="https://undraw.co/">unDraw</a>
+                        <br />
+                        <a href="https://www.freepik.com/free-vector/business-brainstorm-composition-with-indoor-office-scenery-human-characters-coworkers-discussing-ideas-holding-papers-vector-illustration_26764662.htm?query=code%20job&collectionId=240&&position=6&from_view=collections#position=6">Image by macrovector</a> on Freepik<br />
+                        <a href="https://www.freepik.com/free-vector/diverse-people-meeting-office-conference-room_26568813.htm#page=3&position=0&from_view=collections#position=0&page=3">Image by upklyak</a> on Freepik<br />
+                        Image by <a href="https://www.freepik.com/free-vector/hand-drawn-web-developers-working_12063788.htm?query=code%20job&collectionId=2242&&position=10&from_view=collections#position=10">Freepik</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Locomotive scroll scroller -->
+    <script>const locoScroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+
+        new ResizeObserver(() => locoScroll.update()).observe(
+            document.querySelector("[data-scroll-container]")
+        );
+
+        // Trigger the animation on page load
+    window.addEventListener('load', () => {
+        const element = document.querySelector('.element');
+        element.classList.add('visible');
+    });</script>
+
+    <!-- JS to make animations trigger when they are scrolled into view -->
+    <script>// Get all the elements to animate
+        const elements = document.querySelectorAll('.lineUp, .lineRight, .lineLeft, .wipeUp, .wipeUp3');
+
+        // Create a new Intersection Observer instance for each element
+        elements.forEach((element) => {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Add the "animate" class to the element
+                        entry.target.classList.add('animate');
+
+                        // Unobserve the element after it has been in view
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { once: true });
+
+            // Observe the element
+            observer.observe(element);
+        });</script>
+
+
+
+
+</body>
+</html>

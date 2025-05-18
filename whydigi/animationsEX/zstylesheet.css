@@ -1,0 +1,576 @@
+﻿/* for devices with a max screen size of 450px */
+@media only screen and (max-width: 450px) {
+
+    .banner-text p {
+        font-size: 25px !important;
+    }
+
+    .future-content p {
+        font-size: 20px !important;
+    }
+
+    .banner-future h1 {
+        font-size: 15vw !important;
+        line-height: 1.5 !important;
+    }
+
+    .showcase-heading h1{
+        font-size: 12.5vw !important;
+        line-height: 0.8 !important;
+    }
+
+    .big-heading h2 {
+        font-size: 40px !important;
+    }
+        
+    .banner-showcase, .banner-showcase-xs {
+        background-size: cover !important;
+  
+    }
+}
+
+
+body {
+    margin: 0;
+    /*font-family: 'DM Sans', sans-serif;
+    /font-family: 'Gabarito', sans-serif;
+    /font-family: 'PT Sans Narrow', sans-serif;*/
+}
+
+.container-fluid, .row {
+    padding: 0;
+    margin: 0;
+}
+
+/* colour palettes */
+
+.c1 {
+    background-color: #fffb9b;
+}
+
+.c2 {
+    background-color: #e85861;
+}
+
+.c3 {
+    background-color: rgb(10,10,10);
+    color: rgb(220,220,200);
+}
+
+.c4 {
+    background-color: #98bbf5;
+    border-top: solid #98bbf5;
+}
+
+.c5 {
+    background-color: white;
+}
+
+
+
+/* footer */
+
+.footer {
+    border-top: solid rgb(100,100,100) 4px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+    .footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .footer a:hover {
+            text-decoration: none;
+            color: rgb(220,220,200);
+        }
+
+
+/* nav bar */
+.nav-item {
+    padding: 0 12px;
+    border-radius: 17px;
+}
+
+.nav-link {
+    border-radius: 17px;
+    color: rgb(120,120,120);
+}
+
+    .nav-link:hover {
+        background-color: #e85861;
+        color: white;
+        transition: all 0.4s ease-in-out;
+    }
+
+.active {
+    background-color: #e85861;
+    color: white !important;
+}
+
+.navbar-brand{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+/* index page */
+.banner-home {
+    background-image: url("images/banner-home1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text {
+    border: solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(65,64,130, 0.8);
+    border-radius: 20px;
+    color: white;
+    padding: 20px 30px;
+    max-width: 850px;
+}
+
+    .banner-text h1 {
+        font-size: 70px;
+        margin: 0;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 900;
+    }
+
+    .banner-text p {
+        font-family: 'Gabarito', sans-serif;
+        font-size: 30px;
+    }
+
+
+.semi-y {
+    background-image: url("images/half-circle-bgy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.big-heading {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+    .big-heading h2 {
+        font-size: 48px;
+        margin: 0;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .big-heading p {
+        font-size: 22px;
+        margin: 0;
+    }
+
+
+/* alternating section content*/
+
+.row {
+    font-family: 'Gabarito', sans-serif;
+}
+
+
+.col-text {
+    width: 100%;
+    min-width: 320px;
+    max-width: 410px;
+    padding: 12px 20px;
+}
+
+.col-img {
+    width: 90%;
+    max-width: 370px;
+}
+
+
+.semi-w {
+    background-image: url("images/half-circle-bgw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 50px;
+}
+
+.tri-skill i {
+    font-size: 40px;
+}
+
+.tri-skill i, .tri-skill h3, .tri-skill p {
+    margin: 0;
+}
+
+
+
+/* learn page */
+.banner-learn {
+    min-height: 60vh;
+    max-height: 90vh;
+    height: 100vw;
+    position: relative;
+}
+
+.learn-heading, .showcase-heading {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 25px;
+}
+
+    .learn-heading h1,   .showcase-heading{
+        margin: 0;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .learn-heading h1{
+        font-size: 15vw;
+        line-height: 0.9;
+    }
+
+    .showcase-heading h1{
+        font-size: 11vw;
+        line-height: 1.1;
+        color:rgba(44,44,44);
+    }
+    
+
+.ps1 {
+    margin: 0 0 0 18% !important;
+}
+
+.ps2 {
+    margin: 0 0 0 50% !important;
+    position: absolute;
+    z-index: 999;
+}
+
+.ps1s {
+    margin: 0 0 0 8% !important
+}
+
+.ps2s {
+    margin: 0 0 0 30% !important;
+    position: absolute;
+    z-index: 999;
+}
+
+.img-over {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .img-over img {
+        width: 20vw;
+        min-width: 270px;
+    }
+
+.soft {
+    min-width: 260px;
+    max-width: 500px;
+    width: auto;
+}
+
+    .soft i {
+        font-size: 20px;
+    }
+
+    .soft i, .soft p {
+        padding: 5px 10px;
+        margin: 0;
+    }
+
+    .soft p {
+        font-size: 17px;
+        margin: 0;
+    }
+
+/* future page */
+.banner-future {
+    background-image: url("images/banner-future1.png");
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 35vh;
+    max-height: 100vh;
+    height: 120vw;
+}
+
+    .banner-future h1 {
+        margin: 0;
+        /* line-height: 0.8; */
+        font-weight: 700;
+        /* font-size: 16vw; */
+        text-transform: uppercase;
+    }
+
+.future-content h2 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+}
+
+
+.future-content p {
+    font-size: 30px;
+    max-width: 700px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.f-img {
+    width: 40vw;
+    min-width: 340px;
+    max-width: 430px;
+}
+
+/* Only necessary with horizontal scrolling */
+/* html[data-scroll-orientation="horizontal"] {
+    body {
+        width: fit-content;
+    }
+    [data-scroll-container] {
+        display: flex;
+    }
+} */
+
+
+/* showcase page */
+
+.banner-showcase, .banner-showcase-xs {
+    background-image: url("images/showcase-banner.jpg");
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    height: 120vw;
+}
+
+.banner-showcase {
+    background-size: contain;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.banner-showcase-xs {
+    background-image: url("images/showcase-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80svh;
+
+}
+
+.banner-showcase h1, .banner-showcase-xs h1 {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-showcase-xs h1 {
+    line-height: 2;
+}
+
+.qr-text{
+    border: solid 3px black;
+    border-radius: 20px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 410px;
+    padding: 12px 20px;
+    min-height: 340px;
+}
+
+.qr-text h3{
+    font-size: 26px;
+}
+
+.qr-text a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.qr-text:hover{
+    transform: scale(1.1);
+    transition: 1.3s ease-out;
+    color: white;
+    border: solid 5px white;
+}
+
+.qr-text:hover img{
+    transform: scale(0.9);
+    transition: 1.2s ease-out;
+}
+
+.qr-text a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+.horizontal-scroll-container {
+    display: flex; /* Align items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+
+
+
+/* animations etc */
+
+.lineUp {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+    .lineUp.animate {
+        opacity: 1;
+        animation: 2s anim-lineUp ease-out;
+        animation-delay: -0.5s;
+    }
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    40% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.lineRight {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+    .lineRight.animate {
+        opacity: 1;
+        animation: 3.5s anim-lineRight ease-out;
+        animation-delay: -0.7s;
+    }
+
+
+@keyframes anim-lineRight {
+    0% {
+        opacity: 0;
+        transform: translateX(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+
+.lineLeft {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+    .lineLeft.animate {
+        opacity: 1;
+        animation: 3.5s anim-lineLeft ease-out;
+        animation-delay: -0.5s;
+    }
+
+
+@keyframes anim-lineLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+.wipeUp {
+    /*display: inline-block;*/
+    animation: text-clip 1s ease-in-out;
+}
+
+.wipeU3 {
+    /*display: inline-block;*/
+    animation: text-clip3 0.6s ease-out;
+}
+
+    /*wipeUp.animate {
+        /opacity: 1;
+        /display: inline-block;
+        /animation: text-clip 1s ease-out;
+        /animation-delay: -0.5s;
+    }*/
+
+@keyframes text-clip {
+    from {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+        /* transform: translateY(-150%); */
+        /* transform: translateX(0%); */
+        opacity: 0;
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        /* transform: translateY(0%); */
+        opacity: 1;
+    }
+}
+
+@keyframes text-clip3 {
+    from {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+        /* transform: translateY(-150%); */
+        /* transform: translateX(0); */
+        opacity: 0;
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        /* transform: translateY(0%); */
+        /* transform: translateX(-0.5vw); */
+        opacity: 1;
+    }
+}

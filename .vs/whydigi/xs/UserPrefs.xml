@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{5E51F973-407E-4E47-9F11-F6872819E4F2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="whydigi/zstylesheet.css">
+    <Files>
+      <File FileName="whydigi/zindex.html" Line="236" Column="1" />
+      <File FileName="whydigi/zstylesheet.css" Line="101" Column="30" />
+      <File FileName="whydigi/zlearn.html" Line="321" Column="1" />
+      <File FileName="whydigi/zfuture.html" Line="129" Column="70" />
+      <File FileName="../hciwebsite/hciwebsite/v2/index.html" Line="531" Column="32" />
+      <File FileName="../hciwebsite/hciwebsite/v2/stylesheet-ls.css" Line="71" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="whydigi" expanded="True">
+            <Node name="whydigi" expanded="True">
+              <Node name="zstylesheet.css" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.whydigi FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
