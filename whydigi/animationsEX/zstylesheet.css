@@ -391,7 +391,7 @@ body {
     font-size: 26px;
 }
 
-.qr-text a{
+.qr-text-a{
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -409,7 +409,7 @@ body {
     transition: 1.2s ease-out;
 }
 
-.qr-text a:hover{
+.qr-text-a:hover{
     color: white;
     text-decoration: underline;
     transition: 0.3s ease;
